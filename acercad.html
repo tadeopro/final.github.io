@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="es">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="remeras,nike,buzos">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg  " style="background-color: #ffffff;">
+      <div class="container-fluid ">
+        <img src="./img/logon.jpg" width="80px" height="80px">
+        <a class="navbar-brand" href="./index.html">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <ul class="navbar-nav ml-auto ">
+            <li class="nav-item ">
+              <a class="nav-link active" aria-current="page" href="./productos.html">Producto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./acercad.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link active" href="./marcas.html">Marcas</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+    
+       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/ofi2.jpg" width="100px" height="400px" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/ofi.jpg" width="100px" height="400px"  class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/ofi3.jpg" width="100px" height="400px" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      
+
+
+        <div class="row" > 
+          <!-- tarjeta 1-->
+          <div class="card" style="width: 18rem;" class="col-sm-6">
+            <img src="./img/sociod.jpg" class="card-img-top" >
+            <div class="card-body">
+              <h5 >Socios </h5>
+              
+               <p >EL es nuestro socio Mike, principal emprededor</p>
+            </div>
+          </div> 
+          <!-- tarjeta 2-->
+          <div class="card" style="width: 18rem;" class="col-sm-6">
+            <img src="./img/sociop.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 >Socios </h5>
+              
+               <p >El es nuestro socio Santiago,co-fundador</p>
+            </div>
+         
+          </div> 
+          <p class="texto-informativo">La empresa gallega creada en 2005 se ha convertido en la marca de lujo asequible más famosa de España, Bimba&Lola con un total de 223 puntos de venta en 17 países.
+
+            Sus creadoress son dos diseñadores Argentinos, sobrinoss del conocido Adolfo Domínguez e hijoss de Jesús Domínguez, socio fundador de la Sociedad Textil Lonia (STL), una de las empresas de moda responsable de CH Mike y Santiago. Estos hermanos, hace más de diez años, crearon una marca de complementos basada en el “Lujo asequible“ y en solo un año abrían su primera tienda en Bilbao. 
+
+            De hecho, la relación calidad-precio y el diseño contemporáneo han posicionado al galgo como un símbolo de estatus a precio razonable.
+            
+            Sacan solo dos colecciones anuales, no siguen las tendencias de la temporada y sitúan a las carteras como la apuesta clave de cada colección.
+            
+            Desde su creación, hace más de una década, la empresa ha elevado sus ventas un 557%, ha conseguido abrir 223 puntos de venta en 17 países, y cuenta con más de mil empleados.</p>
+
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
+        </div>
+      
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><img src="./img/facebook.jpg" width="30xp" height="30px"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+          <li class="ms-3"><img src="./img/instagraml.jpg" width="30xp" height="30px"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><img src="./img/twit.jpg" width="30xp" height="30px"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+      </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
